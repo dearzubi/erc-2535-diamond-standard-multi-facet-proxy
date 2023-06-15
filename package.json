@@ -1,0 +1,43 @@
+{
+  "name": "erc-2535-diamond-standard",
+  "packageManager": "yarn@3.6.0",
+  "keywords": [
+    "erc 2535",
+    "erc-2535",
+    "diamond",
+    "diamond proxy",
+    "multi facet proxy",
+    "stake manangement",
+    "erc20"
+  ],
+  "scripts": {
+    "clean": "npx hardhat clean",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage",
+    "deploy": "npx hardhat run --network localhost scripts/deploy.ts"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.1",
+    "hardhat": "^2.15.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.0.0",
+    "@typechain/ethers-v6": "^0.4.0",
+    "@typechain/hardhat": "^8.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": ">=9.1.0",
+    "@types/node": ">=12.0.0",
+    "chai": "^4.2.0",
+    "ethers": "^6.6.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.0",
+    "ts-node": ">=8.0.0",
+    "typechain": "^8.1.0",
+    "typescript": ">=4.5.0"
+  }
+}
